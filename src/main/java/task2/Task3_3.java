@@ -17,14 +17,14 @@ public class Task3_3 {
     }
 
     private boolean taskA(boolean a,boolean b) {
-        return !a&&b;
+        return !a && b;
     }
 
     private boolean taskB(boolean a,boolean b) {
-        return a||!b;
+        return a || !b;
     }
 
     private boolean taskC(boolean a,boolean b, boolean c) {
-        return a&&b||c;
+        return a && b || c;
     }
 }

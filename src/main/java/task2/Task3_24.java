@@ -12,11 +12,11 @@ package task2;
         }
 
         private void runTests() {
-            for(int i = 0; i<2; i++) {
+            for(int i = 0; i < 2; i++) {
                 y = true;
-                for(int j = 0; j<2; j++) {
+                for(int j = 0; j < 2; j++) {
                     z = true;
-                    for(int k = 0; k<2; k++) {
+                    for(int k = 0; k < 2; k++) {
                         System.out.println("x =" + x + ", y = " + y + ", z = " + z + ", Result = " + taskX(x, y, z));
                         System.out.println("x =" + x + ", y = " + y + ", z = " + z + ", Result = " + taskY(x, y, z));
                         System.out.println("x =" + x + ", y = " + y + ", z = " + z + ", Result = " + taskZ(x, y, z));
