@@ -1,5 +1,7 @@
 package task1;
 
+import java.util.Objects;
+
 class Semaphore implements Control {
 
     private String result;
